@@ -10,13 +10,13 @@ public class Sistema_academico {
         int x = sc.nextInt();
         switch (x) {
             case 0://Professor
-                System.out.println("Digite o nome do Prefessor:" + pr.getNome());
+                System.out.println("Digite o nome do Prefessor:" );
                 pr.setNome(sc.next());
-                System.out.println("Digite a idade:" + pr.getIdade());
+                System.out.println("Digite a idade:" );
                 pr.setIdade(sc.nextInt());
-                System.out.println("Digite a especialização:" + pr.getEspecializacao());
+                System.out.println("Digite a especialização:" );
                 pr.setEspecializacao(sc.next());
-                System.out.println("Digite o valor do salário:" + pr.getSal());
+                System.out.println("Digite o valor do salário:" );
                 pr.setSal(sc.nextDouble());
                 break;
 
