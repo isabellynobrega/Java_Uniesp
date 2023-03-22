@@ -18,6 +18,19 @@ public class Sistema_academico {
                 pr.setEspecializacao(sc.next());
                 System.out.println("Digite o valor do salário:" );
                 pr.setSal(sc.nextDouble());
+                System.out.println("Professor cadastrado com sucesso.");
+                System.out.println("Deseja visualizar os dados cadastrados? se sim digite 1");
+                
+                int r = sc.nextInt();
+                if (r == 1) {
+                   System.out.println(pr.getNome());
+                   System.out.println(pr.getIdade());
+                   System.out.println(pr.getEspecializacao());
+                   System.out.println(pr.getSal());
+                } else {
+                   System.out.println("Tenha um bom dia!");
+                    }
+
                 break;
 
             case 1://Aluno
@@ -32,6 +45,16 @@ public class Sistema_academico {
                 a.setNota2(sc.nextDouble());
                 a.calcular_media();
                 System.out.println("A média do aluno(a) é :" + a.getMedia());
+                System.out.println("Cadastro realizado com sucesso!");
+                System.out.println("Deseja visualizar os dados cadastrados? se sim digite 1");
+                int r2 = sc.nextInt();
+                if (r2 == 1) {
+                   System.out.println(pr.getNome());
+                   System.out.println(pr.getIdade());
+                   System.out.println(pr.getEspecializacao());
+                   System.out.println(pr.getSal());
+                } else {
+                   System.out.println("Tenha um bom dia!");
         }
 
     }
