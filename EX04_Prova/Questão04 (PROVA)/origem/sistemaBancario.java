@@ -27,7 +27,9 @@ public class sistemaBancario {
                     System.out.println("Saldo insuficiente");
                 }else{
                     System.out.println("Operação realizada com sucesso!");
-                }
+                } break;
+
         }
+
     }
 }
